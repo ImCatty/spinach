@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.fatcat.spinach.mapper.MatchResultInfoMapper" >
+  <resultMap id="BaseResultMap" type="com.fatcat.spinach.pojo.MatchResultInfo" >
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" property="id" jdbcType="INTEGER" />
+    <result column="match_result_id" property="matchResultId" jdbcType="VARCHAR" />
+    <result column="half_home_goals" property="halfHomeGoals" jdbcType="INTEGER" />
+    <result column="half_away_goals" property="halfAwayGoals" jdbcType="INTEGER" />
+    <result column="whole_home_goals" property="wholeHomeGoals" jdbcType="INTEGER" />
+    <result column="whole_away_goals" property="wholeAwayGoals" jdbcType="INTEGER" />
+    <result column="half_result" property="halfResult" jdbcType="VARCHAR" />
+    <result column="whole_result" property="wholeResult" jdbcType="VARCHAR" />
+    <result column="half_home_corners" property="halfHomeCorners" jdbcType="INTEGER" />
+    <result column="half_away_corners" property="halfAwayCorners" jdbcType="INTEGER" />
+    <result column="whole_home_corners" property="wholeHomeCorners" jdbcType="INTEGER" />
+    <result column="whole_away_corners" property="wholeAwayCorners" jdbcType="INTEGER" />
+    <result column="half_corners" property="halfCorners" jdbcType="INTEGER" />
+    <result column="whole_corners" property="wholeCorners" jdbcType="INTEGER" />
+  </resultMap>
+</mapper>

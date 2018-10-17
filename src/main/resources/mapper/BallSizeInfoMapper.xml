@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.fatcat.spinach.mapper.BallSizeInfoMapper" >
+  <resultMap id="BaseResultMap" type="com.fatcat.spinach.pojo.BallSizeInfo" >
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" property="id" jdbcType="INTEGER" />
+    <result column="ball_size_id" property="ballSizeId" jdbcType="VARCHAR" />
+    <result column="company" property="company" jdbcType="VARCHAR" />
+    <result column="double_initial" property="doubleInitial" jdbcType="REAL" />
+    <result column="more_initial" property="moreInitial" jdbcType="REAL" />
+    <result column="less_initial" property="lessInitial" jdbcType="REAL" />
+    <result column="initial_time" property="initialTime" jdbcType="TIMESTAMP" />
+    <result column="double_presence" property="doublePresence" jdbcType="REAL" />
+    <result column="more_presence" property="morePresence" jdbcType="REAL" />
+    <result column="less_presence" property="lessPresence" jdbcType="REAL" />
+    <result column="presence_time" property="presenceTime" jdbcType="TIMESTAMP" />
+  </resultMap>
+</mapper>

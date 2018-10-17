@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.fatcat.spinach.mapper.PlateAsianInfoMapper" >
+  <resultMap id="BaseResultMap" type="com.fatcat.spinach.pojo.PlateAsianInfo" >
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" property="id" jdbcType="INTEGER" />
+    <result column="plate_asian_id" property="plateAsianId" jdbcType="VARCHAR" />
+    <result column="company" property="company" jdbcType="VARCHAR" />
+    <result column="handicap_initial" property="handicapInitial" jdbcType="REAL" />
+    <result column="up_initial" property="upInitial" jdbcType="REAL" />
+    <result column="down_initial" property="downInitial" jdbcType="REAL" />
+    <result column="handicap_presence" property="handicapPresence" jdbcType="REAL" />
+    <result column="up_presence" property="upPresence" jdbcType="REAL" />
+    <result column="down_presence" property="downPresence" jdbcType="REAL" />
+  </resultMap>
+</mapper>

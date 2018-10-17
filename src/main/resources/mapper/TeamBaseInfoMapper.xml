@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.fatcat.spinach.mapper.TeamBaseInfoMapper" >
+  <resultMap id="BaseResultMap" type="com.fatcat.spinach.pojo.TeamBaseInfo" >
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" property="id" jdbcType="INTEGER" />
+    <result column="team_base_id" property="teamBaseId" jdbcType="VARCHAR" />
+    <result column="team_name" property="teamName" jdbcType="VARCHAR" />
+    <result column="team_name_abbreviation" property="teamNameAbbreviation" jdbcType="VARCHAR" />
+  </resultMap>
+</mapper>

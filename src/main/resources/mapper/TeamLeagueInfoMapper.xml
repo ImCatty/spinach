@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.fatcat.spinach.mapper.TeamLeagueInfoMapper" >
+  <resultMap id="BaseResultMap" type="com.fatcat.spinach.pojo.TeamLeagueInfo" >
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" property="id" jdbcType="INTEGER" />
+    <result column="team_league_id" property="teamLeagueId" jdbcType="VARCHAR" />
+    <result column="team_id" property="teamId" jdbcType="VARCHAR" />
+    <result column="round" property="round" jdbcType="INTEGER" />
+    <result column="ranking" property="ranking" jdbcType="INTEGER" />
+    <result column="goals" property="goals" jdbcType="INTEGER" />
+    <result column="concede_goals" property="concedeGoals" jdbcType="INTEGER" />
+    <result column="home_away" property="homeAway" jdbcType="INTEGER" />
+    <result column="opponent_id" property="opponentId" jdbcType="INTEGER" />
+    <result column="opponent_ranking" property="opponentRanking" jdbcType="INTEGER" />
+    <result column="create_time" property="createTime" jdbcType="TIMESTAMP" />
+    <result column="update_time" property="updateTime" jdbcType="TIMESTAMP" />
+  </resultMap>
+</mapper>

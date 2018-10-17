@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.fatcat.spinach.mapper.LeagueInfoMapper" >
+  <resultMap id="BaseResultMap" type="com.fatcat.spinach.pojo.LeagueInfo" >
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" property="id" jdbcType="INTEGER" />
+    <result column="league_id" property="leagueId" jdbcType="VARCHAR" />
+    <result column="round" property="round" jdbcType="INTEGER" />
+    <result column="plate_europe_id" property="plateEuropeId" jdbcType="VARCHAR" />
+    <result column="plate_asian_id" property="plateAsianId" jdbcType="VARCHAR" />
+    <result column="ball_size_id" property="ballSizeId" jdbcType="VARCHAR" />
+    <result column="double_result_id" property="doubleResultId" jdbcType="VARCHAR" />
+    <result column="match_id" property="matchId" jdbcType="VARCHAR" />
+    <result column="match_result_id" property="matchResultId" jdbcType="VARCHAR" />
+  </resultMap>
+</mapper>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.fatcat.spinach.mapper.PlateEuropeInfoMapper" >
+  <resultMap id="BaseResultMap" type="com.fatcat.spinach.pojo.PlateEuropeInfo" >
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" property="id" jdbcType="INTEGER" />
+    <result column="plante_europe_id" property="planteEuropeId" jdbcType="VARCHAR" />
+    <result column="company" property="company" jdbcType="VARCHAR" />
+    <result column="win_presence" property="winPresence" jdbcType="REAL" />
+    <result column="win_initial" property="winInitial" jdbcType="REAL" />
+    <result column="draw_initial" property="drawInitial" jdbcType="REAL" />
+    <result column="draw_presence" property="drawPresence" jdbcType="REAL" />
+    <result column="lose_presence" property="losePresence" jdbcType="REAL" />
+    <result column="lose_initial" property="loseInitial" jdbcType="REAL" />
+    <result column="kelly_win_initial" property="kellyWinInitial" jdbcType="REAL" />
+    <result column="kelly_win_presence" property="kellyWinPresence" jdbcType="REAL" />
+    <result column="kelly_draw_initial" property="kellyDrawInitial" jdbcType="REAL" />
+    <result column="kelly_draw_presence" property="kellyDrawPresence" jdbcType="REAL" />
+    <result column="kelly_lose_initial" property="kellyLoseInitial" jdbcType="REAL" />
+    <result column="kelly_lose_presence" property="kellyLosePresence" jdbcType="REAL" />
+    <result column="return_initial" property="returnInitial" jdbcType="REAL" />
+    <result column="return_presence" property="returnPresence" jdbcType="REAL" />
+  </resultMap>
+</mapper>

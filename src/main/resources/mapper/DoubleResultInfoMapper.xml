@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.fatcat.spinach.mapper.DoubleResultInfoMapper" >
+  <resultMap id="BaseResultMap" type="com.fatcat.spinach.pojo.DoubleResultInfo" >
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" property="id" jdbcType="INTEGER" />
+    <result column="double_result_id" property="doubleResultId" jdbcType="VARCHAR" />
+    <result column="company" property="company" jdbcType="VARCHAR" />
+    <result column="home_home" property="homeHome" jdbcType="REAL" />
+    <result column="home_draw" property="homeDraw" jdbcType="REAL" />
+    <result column="home_away" property="homeAway" jdbcType="REAL" />
+    <result column="draw_home" property="drawHome" jdbcType="REAL" />
+    <result column="draw_draw" property="drawDraw" jdbcType="REAL" />
+    <result column="draw_away" property="drawAway" jdbcType="REAL" />
+    <result column="away_home" property="awayHome" jdbcType="REAL" />
+    <result column="away_draw" property="awayDraw" jdbcType="REAL" />
+    <result column="away_away" property="awayAway" jdbcType="REAL" />
+  </resultMap>
+</mapper>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.fatcat.spinach.mapper.MatchInfoMapper" >
+  <resultMap id="BaseResultMap" type="com.fatcat.spinach.pojo.MatchInfo" >
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" property="id" jdbcType="INTEGER" />
+    <result column="match_id" property="matchId" jdbcType="VARCHAR" />
+    <result column="match_time" property="matchTime" jdbcType="TIMESTAMP" />
+    <result column="home_id" property="homeId" jdbcType="VARCHAR" />
+    <result column="home_standings" property="homeStandings" jdbcType="INTEGER" />
+    <result column="away_id" property="awayId" jdbcType="VARCHAR" />
+    <result column="away_standings" property="awayStandings" jdbcType="INTEGER" />
+  </resultMap>
+</mapper>
